@@ -7,6 +7,10 @@ lazy_static! {
             1
         }
     );
+    
+    // I believe the issus lies either in jwt-simple or async_once 
+    // because this still compiles if i comment out the above code while including jwt-simple in my Cargo.toml
+    static ref BAR: u32 = 2;
 }
 
 fn main() {

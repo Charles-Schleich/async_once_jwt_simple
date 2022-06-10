@@ -7,6 +7,6 @@ edition = "2021"
 
 [dependencies]
 # jwt-simple is the culprit
-# jwt-simple = "0.11"
-lazy_static = "1.4"
+jwt-simple = "0.11"
+lazy_static = "1.4.0"
 async_once = "0.2.6"
